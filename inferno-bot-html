@@ -1,0 +1,28 @@
+<!-- Created by Sudipta Pramanik-->
+
+<!--
+December 6, 2018 - Code of the Day
+Thanks to SoloLearn official team for selecting my code as the COTD. I would like to say thanks to all the fellows who helped me learning and increasing my knowledge.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="New Text Document (2).css">
+        <title>Scarlet</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+                <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+                <!--  Messages are appended here .  -->
+        </div>
+        <div class="container">
+    <!-- Input Message -->
+            <input type="text" class="user-sent"     placeholder="Ask me anything..." />
+    <!-- Send Button -->
+            <button class="send-btn"> <i class="fab fa-telegram-plane" style="font-size: 25px"></i></button>
+        </div>
+    </body>
+	<script src="New Text Document (3).js"></script>
+</html>
