@@ -23,5 +23,5 @@ August 2017
             <button class="send-btn"> <i class="fab fa-telegram-plane" style="font-size: 25px"></i></button>
         </div>
     </body>
-	<script src="New Text Document (3).js"></script>
+	<script src="infernojsfile.js"></script>
 </html>
