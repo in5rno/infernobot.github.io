@@ -6,7 +6,7 @@ alert(" Hello, Welcome To our Chat interface\n* I am Inferno Bot\n* Please Be Po
         First, all messages are stored in an array called 'Ques'. This array is a set of regular expressions with case-insensitive. All regular expressions are checked with if-else  statements. If expressions returns true it will reply.
 */
 var Ques = [
-    /hello|hi|hy|howareyou|hey/i,
+    /hello|hi|hy|hey/i,
     /whoareyou|whatareyou/i,
     /WhatIsDarkwebDevelopers|Company|DarkwebDevelopers/i,
     /WhatIsTheTimeNow|TimeNow|Time|date/i,
@@ -16,6 +16,8 @@ var Ques = [
 	/DoYouLikeAnime|DoYouWatchAnime|Anime/i,
 	/DoYouLoveMe|Love|LoveMe|LoveYou/i,
 	/AreYouHuman|AreYouRobot|Human|Robot/i,
+	/howareyou|howislife/i,
+	/howoldareyou|age|study|class/i,
     
 ];
 
@@ -54,6 +56,10 @@ $(function(){
 		reply("God loves Everyone!");
 	}else if(Ques[9].test(userAsked)){
 		reply("I am a Robot!");
+	}else if(Ques[10].test(userAsked)){
+		reply(" Life goes on");
+	}else if(Ques[11].test(userAsked)){
+		reply("I Dont Want To Speak");
     }else{
         var rand = Math.random();
         if(rand < 0.5){
