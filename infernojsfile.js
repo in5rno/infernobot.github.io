@@ -11,7 +11,7 @@ var Ques = [
     /WhatIsDarkwebDevelopers|Company|DarkwebDevelopers/i,
     /WhatIsTheTimeNow|TimeNow|Time|date/i,
 	/WhatIsYourname|Name|WhoAreYou/i,
-	/WhoCreatedYou|CreatedBy|Creator/i,
+	/WhoCreatedYou|CreatedBy|WhoMadeYou|Creator/i,
 	/FavouriteAnime|FavoriteAnime|AnimeName/i,
 	/DoYouLikeAnime|DoYouWatchAnime|Anime/i,
 	/DoYouLoveMe|Love|LoveMe|LoveYou/i,
